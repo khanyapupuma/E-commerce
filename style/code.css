@@ -1,5 +1,4 @@
-/* Dev */
-
+/* navBar */
 .container1 {
     overflow: hidden;
     background-color: #C8890F;
@@ -20,4 +19,36 @@
     font-size: 40px;
     font-weight: bolder;
 }
-/* For #Home */
+/* All */
+body{
+    background-color: #D6D0B4;
+}
+footer{
+    background-color: #C8890F;
+    font-weight: bold;
+   margin-top: 610px;
+}
+.hm{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+ /* Home */
+
+#h1{  font-size: 40px;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+                     /* About */
+
+                    /* Store */
+
+                    /* Checkout */
+
+                    /* Admin */
+
+                    /* Contact */
