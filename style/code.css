@@ -44,7 +44,23 @@ footer{
     text-align: center;
 }
                      /* About */
-
+#b1{
+    background-image: url("https://khanyapupuma.github.io/all-images/all-images/Images/1piece.jpg");
+}
+#hm{
+    font-size: 50px;
+    color: rgb(92, 223, 207);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+#par1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
                     /* Store */
 
                     /* Checkout */
