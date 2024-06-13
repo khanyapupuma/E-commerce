@@ -27,11 +27,35 @@ body{
 footer{color: white;
     background-color: #44016a;
     font-weight: bold;
-   /* margin-top: 610px; */
-   display: grid;
-   grid-template-rows: 200px 80px;
-   grid-template-columns: repeat(3, 1fr);
+   border-top: solid 4px;
 }
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon-item img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.icon-item p {
+    margin: 0;
+    font-size: 15px; 
+}
+
+
+
+
+
 .hm{
     font-size: 40px;
     color: rgb(0, 0, 0);
@@ -49,11 +73,19 @@ footer{color: white;
 }
 .cov{
     margin-top: 200px;
+    
 }
 .dim{ padding-top: 20px;
     padding-bottom: 10px;
     background-color: #5b3d90;
 }
+.row{
+    justify-content: space-evenly;  
+}
+#b{
+    background-image: url('https://khanyapupuma.github.io/all-images/all-images/Images/wall.jpg');
+}
+
                      /* About */
 #b1{
     background-image: url("https://khanyapupuma.github.io/all-images/all-images/Images/1piece.jpg");
