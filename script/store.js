@@ -1,13 +1,30 @@
-let products =  JSON.parse(localStorage.getItem('products'))
-let container = document.querySelector('[manga]')
-    container.innerHTML += `
-    <div class="card" style="width: 18rem;" id="product">
-    <img src="${product.img_url}" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">${product.productName}</h5>
-      <p class="card-category">${product.category}</p>
-      <p class="card-description">${product.description}</p>
-      <p class="card-text">R ${product.amount}</p>
-      <a href="#" class="btn btn-primary" onclick="addToCart()" id="cartBtn" >Add to Cart</a>
-    </div>
-  </div>`
+try {
+    let products = JSON.parse(localStorage.getItem('products'))
+    let productWrapper = document.querySelector('[products]')
+
+    function displayProducts(products) {
+        productWrapper.innerHTML = ''
+        products.forEach(product => {
+            productWrapper.innerHTML += `
+            <div class="card">
+  <img src="${product.img_url}" class="card-img-top" alt="${product.productName}" loading='lazy'>
+  <div class="card-body">
+    <p class="card-text"> ${product.productName}</p>
+    <h6 class="card-title">${product. description }</h6>
+    <h6 class="card-text">Amount: R${product.amount}</h6>
+    <h6 class="card-text">Category: ${product.category}</h6>
+    <button class="btn btn-primary">Add to cart</button>
+  </div>
+</div>
+            
+            `
+        })
+
+
+    }
+    displayProducts(products)
+}catch(e){
+    productWrapper.innerHTML = `
+    
+    `
+}
