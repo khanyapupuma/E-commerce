@@ -2,7 +2,9 @@
 /* navBar */
 .container1 {
     overflow: hidden;
-    background-color: #C8890F;
+    background-color: #C8890F; 
+    padding-bottom: 10px; 
+
 }
 .container1 a {
     float: right;
@@ -19,6 +21,9 @@
 .p1{
     font-size: 40px;
     font-weight: bolder;
+}
+.c{
+    margin-top:60px ;
 }
 /* All */
 body{
@@ -51,10 +56,6 @@ footer{color: white;
     margin: 0;
     font-size: 15px; 
 }
-
-
-
-
 
 .hm{
     font-size: 40px;
