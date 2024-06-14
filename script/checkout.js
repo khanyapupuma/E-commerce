@@ -1,7 +1,7 @@
 function updateCartCounter() {
-    let cartCounter = document.getElementById('cartCounter');
+    let cartCounter = document.getElementById('cartCounter')
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
-    let totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+    let totalItems = cart.reduce((sum, item) => sum + item.quantity, 0)
     cartCounter.textContent = totalItems;
 }
 
