@@ -84,11 +84,12 @@ footer{color: white;
 }
 #b{
     background-image: url('https://khanyapupuma.github.io/all-images/all-images/Images/wall.jpg');
+    
 }
 
                      /* About */
 #b1{
-    background-image: url("https://khanyapupuma.github.io/all-images/all-images/Images/1piece.jpg");
+    background: linear-gradient(45deg,rgba(0,0,0,0.75),rgba(0,0,0,0.60)),url("https://khanyapupuma.github.io/all-images/all-images/Images/1piece.jpg");
 }
 #hm{
     font-size: 50px;
@@ -121,37 +122,39 @@ footer{color: white;
 
 .contact{
     background-image: url("https://manybackgrounds.com/images/hd/naruto-characters-ycengm4r39fybzn1.jpg");
+    
 
 }                    
-.but{margin-left: 130px;
+.but{margin-left: 50px;
     color: red;
      background-color: #000000;
      border-radius: 3px;
      margin-bottom: 5px;
 }
 .nov{
-    background-color: #aaac1b;
-   margin-left: 50px;
+    
+    background-color: rgba(241, 227, 227, 0.8);
+   margin-left: 25px;
    margin-top: 50px;
    text-align: center;
   border: solid;
   width: 500px;
-}                   
+}                
 .d{
-    width: 300px;
+    width: 395px;
     height: 40px;
     border-radius: 5px;
     margin-left: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-/* .dc{;} */
-.d1{
+
+.d1{ border-radius: 5px;
     width: 400px;
     height: 300px;
     align-content: start;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 35px;
     margin-bottom: 10px;
     box-sizing: border-box;
     vertical-align: top;
