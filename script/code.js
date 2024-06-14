@@ -54,15 +54,3 @@ let products = JSON.parse(localStorage.getItem('products'))
       
     ]))
 
-    // <script>
-    // function showImage(index) {
-    //     let images = document.querySelectorAll('.image-container img')
-    //     images.forEach((img, i) => {
-    //         if (i === index) {
-    //             img.classList.add('active')
-    //         } else {
-    //             img.classList.remove('active')
-    //         }
-    //     })
-    // }
-
